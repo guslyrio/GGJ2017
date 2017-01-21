@@ -74,7 +74,7 @@ public class CharControlAnim : MonoBehaviour {
 			rod.transform.localPosition = Vector3.zero;
 			//adjust rod in players hand
 			rod.transform.localPosition += new Vector3(-0.2f, -0.5f, -1);
-			Splash.SetActive(true);
+			//Splash.SetActive(true);
 		}
 		else {
 			shovel.SetActive(false);
@@ -82,7 +82,7 @@ public class CharControlAnim : MonoBehaviour {
 			chest.SetActive(false);
 			Xspot.SetActive(false);
 			//rod.SetActive(false);
-			Splash.SetActive(false);
+			//Splash.SetActive(false);
 			chestDig = 1.0f;
 		//}
 

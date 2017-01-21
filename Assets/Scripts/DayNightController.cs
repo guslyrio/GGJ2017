@@ -243,7 +243,7 @@ public class DayNightController : MonoBehaviour
 		// Update the current cycle time:
 		currentCycleTime += Time.deltaTime;
 		currentCycleTime = currentCycleTime % dayCycleLength;
-				Debug.Log(currentCycleTime);
+				//Debug.Log(currentCycleTime);
 	}
 	
 	/// <summary>
