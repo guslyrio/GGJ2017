@@ -151,7 +151,7 @@ public class DayNightController : MonoBehaviour
 		dayTime = dawnTime + quarterDay;
 		duskTime = dayTime + quarterDay;
 		nightTime = duskTime + quarterDay;
-		//dayCycleLength = 86400;//120.0f;
+		dayCycleLength = 86400;//120.0f;
 		currentCycleTime = (System.DateTime.Now.Hour * 3600) + (System.DateTime.Now.Minute * 60) + 
 			(System.DateTime.Now.Second);
 
