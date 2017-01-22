@@ -14,8 +14,8 @@ public class WaterSimple : MonoBehaviour
 		if( !mat )
 			return;
 			
-		Vector4 waveSpeed = mat.GetVector( "WaveSpeed" );
-		float waveScale = mat.GetFloat( "_WaveScale" );
+		Vector4 waveSpeed = new Vector4(0.2f, 0.3f, 0.1f, 0.5f);//mat.GetVector( "WaveSpeed" );
+		float waveScale = 0.1f;//mat.GetFloat( "_WaveScale" );
 		float t = Time.time / 20.0f;
 		
 		Vector4 offset4 = waveSpeed * (t * waveScale);

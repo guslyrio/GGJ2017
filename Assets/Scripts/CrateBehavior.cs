@@ -9,10 +9,11 @@ public class CrateBehavior : MonoBehaviour {
 	public uint minLifetime = 5;
 	public uint maxLifetime = 10;
 	private float lifetime;
+	private Vector3 originalPos  = new Vector3(14.0f, 0.0f, 0.0f);
 
 	// Use this for initialization
 	void Start () {
-		transform.position = new Vector3(14.0f, 0.0f, 0.0f);
+		transform.position = originalPos;
 		transform.RotateAround(island.transform.position, Vector3.up, Random.value * 359);
 		lifetime = Random.Range(minLifetime, maxLifetime);
 		splash.SetActive(true);
@@ -35,5 +36,9 @@ public class CrateBehavior : MonoBehaviour {
 		if (collision.gameObject == island) {
 			splash.SetActive(false);
 		}
+	}
+
+	public void Respaw() {
+		transform.position = originalPos;
 	}
 }
