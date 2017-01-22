@@ -78,7 +78,7 @@ Material:
     - first:
         name: _RefractionTex
       second:
-        m_Texture: {fileID: 2800000, guid: 84120b88b7b0c554f8ec4b22c9b7c826, type: 3}
+        m_Texture: {fileID: 2800000, guid: 858a6d2f9c72301448d9f947e2742555, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

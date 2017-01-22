@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Sets up transformation matrices to scale&scroll water waves
 // for the case where graphics card does not support vertex programs.
@@ -34,7 +35,7 @@ public class WaterSimple : MonoBehaviour
 		transform.Translate(Vector3.up * Time.deltaTime/20);
 		if (transform.position.y > waterLimit.transform.position.y)
 		{
-			Debug.Log("GAME OVER!");
+			SceneManager.LoadScene("StartScene");
 		};
 	}
 }

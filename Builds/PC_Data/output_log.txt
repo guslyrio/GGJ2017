@@ -1,0 +1,42 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 21.21.13.4200]
+    Renderer: NVIDIA GeForce GT 335M  
+    Vendor:   NVIDIA
+    VRAM:     978 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+WARNING: BC6H/BC7 texture format is not supported, decompressing texture
+UnloadTime: 1.722884 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: c94 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.345603 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 934.
+Total: 0.547490 ms (FindLiveObjects: 0.067580 ms CreateObjectMapping: 0.044911 ms MarkObjects: 0.366134 ms  DeleteObjects: 0.067580 ms)
+
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\brasil\Documents\GGJ2017\Builds\PC_Data\Managed\Boo.Lang.dll (this message is harmless)
