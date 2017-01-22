@@ -212,9 +212,9 @@ public class DayNightController : MonoBehaviour
 	{
 		Initialize();
 	}
-	
-	// Update is called once per frame
-	void Update()
+
+    // Update is called once per frame
+    void Update()
 	{
 		// Rudementary phase-check algorithm:
 		if (currentCycleTime > nightTime && currentPhase == DayPhase.Dusk)
@@ -243,8 +243,8 @@ public class DayNightController : MonoBehaviour
 		// Update the current cycle time:
 		currentCycleTime += Time.deltaTime;
 		currentCycleTime = currentCycleTime % dayCycleLength;
-				//Debug.Log(currentCycleTime);
-	}
+        //Debug.Log(currentCycleTime);
+    }
 	
 	/// <summary>
 	/// Sets the currentPhase to Dawn, turning on the directional light, if any.
